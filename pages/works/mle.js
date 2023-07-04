@@ -16,10 +16,11 @@ const Work = () => (
         <Center>Concept</Center>
       </Heading>
       <P style={{ width: '750px', textAlign: 'left' }}>
-      Let's say we have some data,<br />
+      <span>Let's say we have some data,<br />
       The goal of maximum likelihood is to find the optimal way to fit a desired distribution to the data.<br />
       <br />
-      The reason behind fitting a distribution to our data is that it can be easier to work with the data and it is also more general i.e. applies to every experiment of same type.
+      The reason behind fitting a distribution to our data is that it can be easier to work with 
+      the data and it is also more general i.e. applies to every experiment of same type.</span>
       </P>
       <P>
       </P>
