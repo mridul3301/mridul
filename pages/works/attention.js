@@ -19,7 +19,7 @@ const Work = () => (
       </Heading>
       <P style={{ width: '750px', textAlign: 'left' }}>
       
-      <span>The "Attention is All You Need" paper, published in 2017 by Vaswani et al., introduced
+      <span>The &quotAttention is All You Need&quot paper, published in 2017 by Vaswani et al., introduced
       the Transformer model, a revolutionary architecture for sequence transduction tasks, such 
       as machine translation. The paper presented a new approach to eliminate recurrent neural 
       networks (RNNs) and convolutional neural networks (CNNs) in favor of a purely attention-based 
