@@ -1,15 +1,9 @@
 import {
-  Container,
   Badge,
-  Box,
-  Link,
-  List,
-  ListItem,
-  AspectRatio,
   Heading,
   Center
 } from '@chakra-ui/react'
-import { Title, NewTitle, WorkImage, Meta } from '../../components/work'
+import { NewTitle} from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 

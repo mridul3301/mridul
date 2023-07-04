@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { Text, useColorModeValue } from '@chakra-ui/react'
-import FootprintIcon from './icons/footprint'
 import styled from '@emotion/styled'
 import { BsEmojiSmile } from 'react-icons/bs';
 

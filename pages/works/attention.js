@@ -1,11 +1,7 @@
 import {
-  Container,
   Badge,
-  Link,
   List,
   ListItem,
-  SimpleGrid,
-  UnorderedList,
   Heading,
   Center
 } from '@chakra-ui/react'
