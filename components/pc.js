@@ -12,7 +12,7 @@ const PC = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
-  const urlPCGLB = (process.env.NODE_ENV === 'production' ? 'https://mridulsharma.vercel.app/homepage' : '') + '/pc.glb'
+  const urlPCGLB = (process.env.NODE_ENV === 'production' ? 'https://mridulsharma.vercel.app/' : '') + '/pc.glb'
 
   const handleWindowResize = useCallback(() => {
     const { current: renderer } = refRenderer
