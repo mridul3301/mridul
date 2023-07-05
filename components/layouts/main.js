@@ -14,7 +14,7 @@ const Main = ({ children, router }) => {
   return (
     <Box as="main" pb={8}>
       <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=2" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Mridul's homepage" />
         <meta name="author" content="Mridul Sharma" />
         <meta name="author" content="mridul" />
@@ -24,11 +24,11 @@ const Main = ({ children, router }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@mriiidullll" />
         <meta name="twitter:creator" content="@mriiidullll" />
-        <meta name="twitter:image" content="https://www.craftz.dog/card.png" />
+        <meta name="twitter:image" content="../public/images/mridul.jpg" />
         <meta property="og:site_name" content="Mridul Sharma" />
         <meta name="og:title" content="Mridul Sharma" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.craftz.dog/card.png" />
+        <meta property="og:image" content="../public/images/mridul.jpg" />
         <title>Mridul Sharma - Homepage</title>
       </Head>
 
