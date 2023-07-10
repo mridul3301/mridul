@@ -13,10 +13,11 @@ const Work = () => (
         Maximum Likelihood Estimate (MLE) <Badge>2023-04-07</Badge>
       </NewTitle>
       <Heading as="h4" fontSize={14} my={6}>
+      <Center>I've created this website recently. So, this is some random intro for test purpose, I will push the real blog content soon.</Center>
         <Center>Concept</Center>
       </Heading>
       <P style={{ width: '750px', textAlign: 'left' }}>
-      <span>Let&#39s say we have some data,<br />
+      <span>Let&#39;s say we have some data,<br />
       The goal of maximum likelihood is to find the optimal way to fit a desired distribution to the data.<br />
       <br />
       The reason behind fitting a distribution to our data is that it can be easier to work with 

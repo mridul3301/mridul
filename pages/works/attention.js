@@ -12,14 +12,16 @@ import P from '../../components/paragraph'
 const Work = () => (
   <Layout title="Attention">
       <Title>
-        Attention is all you need <Badge>2023-04-07</Badge>
+        Why Attention works? <Badge>2023-04-07</Badge>
       </Title>
       <Heading as="h4" fontSize={14} my={6}>
+        <Center>I've created this website recently. So, this is some random intro for test purpose, I will push the real blog content soon.</Center>
         <Center>Introduction</Center>
       </Heading>
       <P style={{ width: '750px', textAlign: 'left' }}>
+        
       
-      <span>The &quotAttention is All You Need&quot paper, published in 2017 by Vaswani et al., introduced
+      <span>The &quot;Attention is All You Need&quot; paper, published in 2017 by Vaswani et al., introduced
       the Transformer model, a revolutionary architecture for sequence transduction tasks, such 
       as machine translation. The paper presented a new approach to eliminate recurrent neural 
       networks (RNNs) and convolutional neural networks (CNNs) in favor of a purely attention-based 

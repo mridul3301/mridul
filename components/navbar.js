@@ -84,7 +84,7 @@ const Navbar = props => {
             Mathematics Blog
           </LinkItem>
           <LinkItem href="/pr" path={path}>
-            Paper Replications
+            Papers & Projects
           </LinkItem>
           <LinkItem
             target="_blank"
@@ -122,11 +122,11 @@ const Navbar = props => {
                   Mathematics Blog
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/pr">
-                  Paper Replications
+                  Paper Replications & Projects
                 </MenuItem>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
+                  href="https://github.com/mridul3301/mridul"
                 >
                   View Source
                 </MenuItem>
