@@ -13,7 +13,7 @@ const Work = () => (
         Maximum Likelihood Estimate (MLE) <Badge>2023-04-07</Badge>
       </NewTitle>
       <Heading as="h4" fontSize={14} my={6}>
-      <Center>I've created this website recently. So, this is some random intro for test purpose, I will push the real blog content soon.</Center>
+      <Center>I&apos;ve created this website recently. So, this is some random intro for test purpose, I will push the real blog content soon.</Center>
         <Center>Concept</Center>
       </Heading>
       <P style={{ width: '750px', textAlign: 'left' }}>
