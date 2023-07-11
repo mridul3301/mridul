@@ -26,10 +26,11 @@ const Blogs = () => (
           </WorkGridItem>
         </Section>
 
+
       </SimpleGrid>
     </Container>
   </Layout>
 )
 
 export default Blogs
-export { getServerSideProps } from '../components/chakra'
+export { getStaticProps } from "../components/chakra"

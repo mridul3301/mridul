@@ -25,3 +25,11 @@ export async function getServerSideProps({ req }) {
     }
   }
 }
+
+export async function getStaticProps() {
+  return {
+    props: {
+      cookies: '' // Since getStaticProps runs at build time, there are no cookies available. Set it to an empty string.
+    }
+  }
+}

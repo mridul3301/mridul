@@ -96,10 +96,11 @@ const Work = () => (
         </ListItem>
 
       </List>
-      <WorkImage src="https://jalammar.github.io/images/t/transformer_decoding_2.gif" alt="amembo" />
+      <Center><WorkImage src="https://jalammar.github.io/images/t/transformer_decoding_2.gif" alt="amembo" /></Center>
+      
       
   </Layout>
 )
 
 export default Work
-export { getServerSideProps } from '../../components/chakra'
+export { getStaticProps } from "../../components/chakra"

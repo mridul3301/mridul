@@ -26,4 +26,4 @@ const matBlogs = () => (
 )
 
 export default matBlogs
-export { getServerSideProps } from '../components/chakra'
+export { getStaticProps } from "../components/chakra"
