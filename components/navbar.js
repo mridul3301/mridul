@@ -77,11 +77,8 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/blogs" path={path}>
-            AI Blog
-          </LinkItem>
-          <LinkItem href="/matblog" path={path}>
-            Mathematics Blog
+          <LinkItem href="https://mridulsharmablogs.vercel.app/" path={path}>
+            Blogs
           </LinkItem>
           <LinkItem href="/pr" path={path}>
             Papers & Projects
