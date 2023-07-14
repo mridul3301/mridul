@@ -112,11 +112,8 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/">
                   About
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/blogs">
-                  AI Blogs
-                </MenuItem>
-                <MenuItem as={MenuLink} href="/matblog">
-                  Mathematics Blog
+                <MenuItem as={MenuLink} href="https://mridulsharmablogs.vercel.app/">
+                  Blogs
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/pr">
                   Paper Replications & Projects
