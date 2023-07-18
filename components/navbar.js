@@ -77,7 +77,7 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="https://mridulsharmablogs.vercel.app/" path={path}>
+          <LinkItem href="https://sharmamridul.com.np/" path={path}>
             Blogs
           </LinkItem>
           <LinkItem href="/pr" path={path}>
@@ -112,7 +112,7 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/">
                   About
                 </MenuItem>
-                <MenuItem as={MenuLink} href="https://mridulsharmablogs.vercel.app/">
+                <MenuItem as={MenuLink} href="https://sharmamridul.com.np/">
                   Blogs
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/pr">
