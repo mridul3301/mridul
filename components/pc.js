@@ -12,7 +12,7 @@ const PC = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
-  const urlPCGLB = (process.env.NODE_ENV === 'production' ? 'https://github.com/mridul3301/mridul3301.github.io/blob/main/public/' : '') + '/pc.glb'
+  const urlPCGLB = (process.env.NODE_ENV === 'production' ? 'https://www.mridulsharma.com.np' : '') + '/pc.glb'
 
   const handleWindowResize = useCallback(() => {
     const { current: renderer } = refRenderer
