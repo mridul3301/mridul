@@ -43,6 +43,7 @@ const Home = () => (
             Mridul Sharma
           </Heading>
           <p>Aspiring AI Researcher</p>
+
         </Box>
         <Box
           flexShrink={0}
