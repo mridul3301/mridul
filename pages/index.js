@@ -54,18 +54,18 @@ const Home = () => (
             borderColor="whiteAlpha.800"
             borderWidth={2}
             borderStyle="solid"
-            w="100px"
-            h="100px"
+            w="200px"
+            h="200px"
             display="inline-block"
             borderRadius="full"
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/mridul.jpg"
+              src="/images/mridul_new.png"
               alt="Profile image"
               borderRadius="full"
-              width="100"
-              height="100"
+              width="200"
+              height="200"
             />
           </Box>
         </Box>
