@@ -15,17 +15,6 @@ import food from '../public/images/project-images/food.png'
 const pr = () => (
   <Layout title="Papers & Projects">
 
-<Container>
-      <Heading as="h3" fontSize={20} mb={4}>
-        Paper Published
-      </Heading>
-
-      <Section delay={0.4}>
-        <p>No papers published yet.</p><br></br>
-        <p></p>
-      </Section>
-    </Container>
-
 
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
