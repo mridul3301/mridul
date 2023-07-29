@@ -121,10 +121,10 @@ const Home = () => (
         <ListItem>
         <Paragraph>
         &nbsp;&nbsp;<strong>Bachelors in Computer Engineering</strong><br></br>
-        &nbsp;<Button
+        <Button
                 onClick={() => {window.open("https://acem.edu.np/", '_blank')}}
                 variant="ghost"
-              >Advanced College of Engineering and Management</Button><br></br>
+              >ACEM college</Button><br></br>
         &nbsp;&nbsp;&nbsp;&nbsp;2018 - 2023
         </Paragraph>
         </ListItem>
@@ -132,7 +132,7 @@ const Home = () => (
         <Paragraph>
           <br></br>
         &nbsp;&nbsp;<strong>Microdegree in Artificial Intelligence</strong><br></br>
-        &nbsp;<Button
+        <Button
                 onClick={() => {window.open("https://fuse.ai/", '_blank')}}
                 variant="ghost"
               >Fusemachines AI fellowship</Button><br></br>
