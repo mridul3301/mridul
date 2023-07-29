@@ -96,7 +96,7 @@ const Home = () => (
             rightIcon={<ChevronRightIcon />}
             colorScheme="teal"
           >
-            Here's my CV
+            Here&apos;s my CV
           </Button>
         </Box>
       </Section>
