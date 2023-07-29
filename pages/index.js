@@ -8,7 +8,9 @@ import {
   List,
   ListItem,
   useColorModeValue,
-  chakra
+  chakra,
+  color,
+  textDecoration
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -76,12 +78,18 @@ const Home = () => (
           About
         </Heading>
         <p>
-        Enthusiastic and self-motivated Computer Engineer
-        with huge interest in Machine Learning & Deep
-        Learning. In love with Statistics, Probability, Algebra, Calculus and
-        Algorithms.
+        As a self-motivated and dedicated Computer Engineer, I am fully immersed in the realm of 
+        Artificial Intelligence. My profound passion lies in the relentless pursuit of knowledge and 
+        research within the field of AI. I am wholeheartedly committed to exploring the depths of 
+        artificial intelligence, continuously seeking to expand my understanding.
         </p>
-        <Box align="center" my={4}>
+        <br></br>
+        <p>
+        As I move forward in my career, my ultimate goal is to contribute significantly to the ever-evolving 
+        landscape of AI research. I am eager to collaborate with brilliant minds, push the boundaries of 
+        innovation, and pave the way for a smarter, more sustainable future through AI-driven technologies
+        </p>
+        <Box align="center" my={8}>
           <Button
             as={NextLink}
             onClick={() => {window.open('https://drive.google.com/file/d/1g3jCLb81N-tJh8UeeoW0OkctRk-SBl7X/view?usp=sharing', '_blank')}}
@@ -90,7 +98,7 @@ const Home = () => (
             rightIcon={<ChevronRightIcon />}
             colorScheme="teal"
           >
-            CV
+            Here's my CV
           </Button>
         </Box>
       </Section>
@@ -101,10 +109,40 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Mathematics,
-          Machine Learning,
-          Cricket,
-          Football & Swimming.
+          Artificial Intelligence,
+          Probability,
+          & Problem solving.
         </Paragraph>
+      </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+        Education
+        </Heading>
+        <List>
+        <ListItem>
+        <Paragraph>
+        &nbsp;&nbsp;<strong>Bachelors in Computer Engineering</strong><br></br>
+        &nbsp;<Button
+                onClick={() => {window.open("https://acem.edu.np/", '_blank')}}
+                variant="ghost"
+              >Advanced College of Engineering and Management</Button><br></br>
+        &nbsp;&nbsp;&nbsp;&nbsp;2018 - 2023
+        </Paragraph>
+        </ListItem>
+        <ListItem>
+        <Paragraph>
+          <br></br>
+        &nbsp;&nbsp;<strong>Microdegree in Artificial Intelligence</strong><br></br>
+        &nbsp;<Button
+                onClick={() => {window.open("https://fuse.ai/", '_blank')}}
+                variant="ghost"
+              >Fusemachines AI fellowship</Button><br></br>
+        &nbsp;&nbsp;&nbsp;&nbsp;2023 - 2024
+        </Paragraph>
+        </ListItem>
+
+        </List>
       </Section>
 
       <Section delay={0.3}>
@@ -119,7 +157,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @mridul3301
+                mridul3301
               </Button>
             </Link>
           </ListItem>
@@ -130,7 +168,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @mriiidullll
+                mriiidullll
               </Button>
             </Link>
           </ListItem>
@@ -143,7 +181,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoLinkedin />}
               >
-                @mridul3301
+                Mridul Sharma
               </Button>
             </Link>
           </ListItem>
@@ -154,7 +192,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoYoutube />}
               >
-                @33 Papers
+                33 Papers
               </Button>
             </Link>
           </ListItem>
