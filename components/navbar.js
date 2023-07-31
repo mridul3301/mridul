@@ -77,23 +77,14 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
+          <LinkItem href="https://mridulsharma.com.np/" path={path}>
+            About
+          </LinkItem>
           <LinkItem href="https://blogs.mridulsharma.com.np/" path={path}>
             Blogs
           </LinkItem>
           <LinkItem href="/pr" path={path}>
-            Papers & Projects
-          </LinkItem>
-          <LinkItem
-            target="_blank"
-            href="https://github.com/mridul3301/mridul"
-            path={path}
-            display="inline-flex"
-            alignItems="center"
-            style={{ gap: 4 }}
-            pl={2}
-          >
-            <IoLogoGithub />
-            Source
+            Projects
           </LinkItem>
         </Stack>
 
@@ -116,13 +107,7 @@ const Navbar = props => {
                   Blogs
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/pr">
-                  Paper & Projects
-                </MenuItem>
-                <MenuItem
-                  as={Link}
-                  href="https://github.com/mridul3301/mridul"
-                >
-                  View Source
+                  Projects
                 </MenuItem>
               </MenuList>
             </Menu>
