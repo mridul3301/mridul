@@ -91,7 +91,7 @@ const Home = () => (
         <Box align="center" my={8}>
           <Button
             as={NextLink}
-            onClick={() => {window.open('https://drive.google.com/file/d/1g3jCLb81N-tJh8UeeoW0OkctRk-SBl7X/view?usp=sharing', '_blank')}}
+            onClick={() => {window.open('https://drive.google.com/file/d/1N5GUKS3Kt6Hus9Ii4H2nS42M3EBzDpkn/view', '_blank')}}
             href={'/'}
             scroll={false}
             rightIcon={<ChevronRightIcon />}
@@ -161,6 +161,17 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
+            <Link href="https://www.linkedin.com/in/mridul3301/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoLinkedin />}
+              >
+                Mridul Sharma
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
             <Link href="https://twitter.com/mriiidullll" target="_blank">
               <Button
                 variant="ghost"
@@ -173,17 +184,7 @@ const Home = () => (
           </ListItem>
           <ListItem>
           </ListItem>
-          <ListItem>
-            <Link href="https://www.linkedin.com/in/mridul3301/" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoLinkedin />}
-              >
-                Mridul Sharma
-              </Button>
-            </Link>
-          </ListItem>
+          
           <ListItem>
             <Link href="https://www.youtube.com/channel/UCF0DSqtmkmbw115NsjGBvsg" target="_blank">
               <Button
