@@ -91,13 +91,13 @@ const Home = () => (
         <Box align="center" my={8}>
           <Button
             as={NextLink}
-            onClick={() => {window.open('https://drive.google.com/file/d/1N5GUKS3Kt6Hus9Ii4H2nS42M3EBzDpkn/view', '_blank')}}
+            onClick={() => {window.open('https://drive.google.com/file/d/1Pa1_AdFC1_Z5s08RRyOqF3CyHXuL0LSz/view?usp=sharing', '_blank')}}
             href={'/'}
             scroll={false}
             rightIcon={<ChevronRightIcon />}
             colorScheme="teal"
           >
-            Here&apos;s my CV
+            Here&apos;s my Résumé
           </Button>
         </Box>
       </Section>
