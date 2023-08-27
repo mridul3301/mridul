@@ -91,7 +91,7 @@ const Home = () => (
         <Box align="center" my={8}>
           <Button
             as={NextLink}
-            onClick={() => {window.open('https://drive.google.com/file/d/1Pa1_AdFC1_Z5s08RRyOqF3CyHXuL0LSz/view?usp=sharing', '_blank')}}
+            onClick={() => {window.open('https://drive.google.com/file/d/1g2UcjLInx2YTOxj64ZIee0kgb_daY8XK/view?usp=sharing', '_blank')}}
             href={'/'}
             scroll={false}
             rightIcon={<ChevronRightIcon />}
