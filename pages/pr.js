@@ -12,6 +12,7 @@ import dti from '../public/images/project-images/dti.png'
 import mvs from '../public/images/project-images/mvs.png'
 import food from '../public/images/project-images/food.png'
 import cb from '../public/images/project-images/cb.png'
+import vit from  '../public/images/contents/vit.png'
 
 const pr = () => (
   <Layout title="Papers & Projects">
@@ -24,6 +25,12 @@ const pr = () => (
 
       <Section delay={0.4}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
+
+        <GridItem
+            title="An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (ViT)"
+            thumbnail={vit}
+            href="https://github.com/33-Papers/ViT-Vision-Transformers"
+          />
           
           <GridItem
             title="Pre training of Deep Bidirectional Transformers for Language Understanding (BERT)"
