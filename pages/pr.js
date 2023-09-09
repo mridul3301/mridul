@@ -13,6 +13,7 @@ import mvs from '../public/images/project-images/mvs.png'
 import food from '../public/images/project-images/food.png'
 import cb from '../public/images/project-images/cb.png'
 import vit from  '../public/images/contents/vit.png'
+import unet from '../public/images/contents/unet.png'
 
 const pr = () => (
   <Layout title="Papers & Projects">
@@ -25,6 +26,13 @@ const pr = () => (
 
       <Section delay={0.4}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
+
+        <GridItem
+            title="U-Net: Convolutional Networks for Biomedical Image Segmentation"
+            thumbnail={unet}
+            href="https://github.com/mridul3301/U-Net"
+          />
+          
 
         <GridItem
             title="An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (ViT)"
