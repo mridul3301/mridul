@@ -41,11 +41,6 @@ const pr = () => (
           />
           
           <GridItem
-            title="Pre training of Deep Bidirectional Transformers for Language Understanding (BERT)"
-            thumbnail={bert}
-            href="https://github.com/33-Papers/BERT-Pre-training-of-Deep-Bidirectional-Transformers-for-Language-Understanding"
-          />
-          <GridItem
            title="Attention is all you need (Transformers)"
            thumbnail={attention}
            href="https://github.com/33-Papers/Attention-Is-All-You-Need"
