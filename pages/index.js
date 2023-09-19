@@ -14,7 +14,7 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin, IoLogoYoutube } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import Image from 'next/image'
 
 
@@ -185,17 +185,6 @@ const Home = () => (
           <ListItem>
           </ListItem>
           
-          <ListItem>
-            <Link href="https://www.youtube.com/channel/UCF0DSqtmkmbw115NsjGBvsg" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoYoutube />}
-              >
-                33 Papers
-              </Button>
-            </Link>
-          </ListItem>
         </List>
       </Section>
     </Container>
