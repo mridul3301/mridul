@@ -77,34 +77,26 @@ const Home = () => (
           About
         </Heading>
         <p>
-        As a self-motivated and dedicated Computer Engineer, I am fully immersed in the realm of 
-        Artificial Intelligence. My profound passion lies in the relentless pursuit of knowledge and 
-        research within the field of AI. I am wholeheartedly committed to exploring the depths of 
-        artificial intelligence, continuously seeking to expand my understanding.
-        </p>
-        <br></br>
-        <p>
-        As I move forward in my career, my ultimate goal is to contribute significantly to the ever-evolving 
-        landscape of AI research. I am eager to collaborate with brilliant minds, push the boundaries of 
-        innovation, and pave the way for a smarter, more sustainable future through AI-driven technologies
+        I'm a Computer Engineer passionate about AI research and continuous learning. 
+        I aim to contribute to AI advancements, collaborate with brilliant minds, and drive innovation for a smarter, sustainable future.
         </p>
         <Box align="center" my={8}>
           <Button
             as={NextLink}
-            onClick={() => {window.open('https://drive.google.com/file/d/1g2UcjLInx2YTOxj64ZIee0kgb_daY8XK/view?usp=sharing', '_blank')}}
+            onClick={() => {window.open('https://drive.google.com/file/d/1Q1C4u0r1POOAGItVrJCesrMJUPM3quAC/view?usp=sharing', '_blank')}}
             href={'/'}
             scroll={false}
             rightIcon={<ChevronRightIcon />}
             colorScheme="teal"
           >
-            Here&apos;s my Résumé
+            Here&apos;s my CV
           </Button>
         </Box>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-        I love
+        I love <span></span>
         </Heading>
         <Paragraph>
           Mathematics,
@@ -116,7 +108,7 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-        Education
+        Education 👨🏻‍🎓
         </Heading>
         <List>
         <ListItem>
@@ -143,10 +135,48 @@ const Home = () => (
 
         </List>
       </Section>
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+         Experience 👨🏽‍💻
+        </Heading>
+        <List>
+        <ListItem>
+        <Paragraph>
+        &nbsp;&nbsp;<strong>1. AI Research Intern (Part-time)</strong><br></br>
+        <Button
+                variant="ghost"
+              >Modulo Research</Button><br></br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<i>(May 2024 - Present)</i>
+        </Paragraph>
+        </ListItem>
+        <ListItem>
+        <Paragraph>
+          <br></br>
+        &nbsp;&nbsp;<strong>2. Machine Learning Engineer (Full-time)</strong><br></br>
+        <Button
+                variant="ghost"
+              >ICEBRKR, A Virtly Company, Switzerland</Button><br></br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<i>(March 2024 - Present)</i>
+        </Paragraph>
+        </ListItem>
+        <ListItem>
+        <Paragraph>
+          <br></br>
+        &nbsp;&nbsp;<strong>3. Research Assistant (Full Time)</strong><br></br>
+        <Button
+                
+                variant="ghost"
+              >Artificial Intelligence Research Center, ACEM College</Button><br></br>
+        &nbsp;&nbsp;&nbsp;&nbsp;(October 2023 - February 2024)
+        </Paragraph>
+        </ListItem>
+
+        </List>
+      </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          Socials
+          Socials 📱
         </Heading>
         <List>
           <ListItem>
