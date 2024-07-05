@@ -115,9 +115,9 @@ const Home = () => (
         <Paragraph>
         &nbsp;&nbsp;<strong>Bachelors in Computer Engineering</strong><br></br>
         <Button
-                onClick={() => {window.open("https://acem.edu.np/", '_blank')}}
+                onClick={() => {window.open("https://ioe.tu.edu.np/", '_blank')}}
                 variant="ghost"
-              >ACEM college</Button><br></br>
+              >Tribhuvan University</Button><br></br>
         &nbsp;&nbsp;&nbsp;&nbsp;2018 - 2023
         </Paragraph>
         </ListItem>
@@ -166,7 +166,7 @@ const Home = () => (
         <Button
                 
                 variant="ghost"
-              >Artificial Intelligence Research Center, ACEM College</Button><br></br>
+              >Artificial Intelligence Research Center, ACEM</Button><br></br>
         &nbsp;&nbsp;&nbsp;&nbsp;(October 2023 - February 2024)
         </Paragraph>
         </ListItem>
