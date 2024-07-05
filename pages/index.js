@@ -74,7 +74,7 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          About
+          About 🙋🏻‍♂️
         </Heading>
         <p>
         I&apos;m a Computer Engineer passionate about AI research and continuous learning. 
@@ -96,7 +96,7 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-        I love <span></span>
+        I love ❤️
         </Heading>
         <Paragraph>
           Mathematics,
