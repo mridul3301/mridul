@@ -77,7 +77,7 @@ const Home = () => (
           About
         </Heading>
         <p>
-        I'm a Computer Engineer passionate about AI research and continuous learning. 
+        I&apos;m a Computer Engineer passionate about AI research and continuous learning. 
         I aim to contribute to AI advancements, collaborate with brilliant minds, and drive innovation for a smarter, sustainable future.
         </p>
         <Box align="center" my={8}>
