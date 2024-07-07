@@ -77,13 +77,13 @@ const Home = () => (
           About 🙋🏻‍♂️
         </Heading>
         <p>
-        I&apos;m a Computer Engineer passionate about AI research and continuous learning. 
+        I&apos;m a Computer Engineer passionate about AI research and continuous learning. I&apos;m interested in LLMs, RL and Interpretability in AI.
         I aim to contribute to AI advancements, collaborate with brilliant minds, and drive innovation for a smarter, sustainable future.
         </p>
         <Box align="center" my={8}>
           <Button
             as={NextLink}
-            onClick={() => {window.open('https://drive.google.com/file/d/1Q1C4u0r1POOAGItVrJCesrMJUPM3quAC/view?usp=sharing', '_blank')}}
+            onClick={() => {window.open('https://drive.google.com/file/d/1WFlh9IjzRoO9mj5QYs8JgyAbnnD56vvX/view?usp=sharing', '_blank')}}
             href={'/'}
             scroll={false}
             rightIcon={<ChevronRightIcon />}
