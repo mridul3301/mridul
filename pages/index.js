@@ -79,7 +79,7 @@ const Home = () => (
         <p>
         I&apos;m a Computer Engineer passionate about AI & Mathematics research. I&apos;m interested in LLMs, RL and Interpretability.
         My research inspiration comes from <b><a href="https://distill.pub/">Distill</a></b> journal, particularly the work of <b><a href="https://colah.github.io/about.html">Chris Olah. </a></b> 
-        I'm looking to pursue similar research, but with a stronger emphasis on the mathematical foundations.
+        I&apos;m looking to pursue similar research, but with a stronger emphasis on the mathematical foundations.
         </p>
         <Box align="center" my={8}>
           <Button
