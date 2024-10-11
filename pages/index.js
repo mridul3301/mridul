@@ -77,13 +77,14 @@ const Home = () => (
           About 🙋🏻‍♂️
         </Heading>
         <p>
-        I&apos;m a Computer Engineer passionate about AI research and continuous learning. I&apos;m interested in LLMs, RL and Interpretability in AI.
-        I aim to contribute to AI advancements, collaborate with brilliant minds, and drive innovation for a smarter, sustainable future.
+        I&apos;m a Computer Engineer passionate about AI & Mathematics research. I&apos;m interested in LLMs, RL and Interpretability.
+        My research inspiration comes from <b><a href="https://distill.pub/">Distill</a></b> journal, particularly the work of <b><a href="https://colah.github.io/about.html">Chris Olah. </a></b> 
+        I'm looking to pursue similar research, but with a stronger emphasis on the mathematical foundations.
         </p>
         <Box align="center" my={8}>
           <Button
             as={NextLink}
-            onClick={() => {window.open('https://drive.google.com/file/d/1WFlh9IjzRoO9mj5QYs8JgyAbnnD56vvX/view?usp=sharing', '_blank')}}
+            onClick={() => {window.open('https://drive.google.com/file/d/1L-t6JiI6g3UnIAhFlo66TJdasF4FH027/view?usp=sharing', '_blank')}}
             href={'/'}
             scroll={false}
             rightIcon={<ChevronRightIcon />}
@@ -102,7 +103,7 @@ const Home = () => (
           Mathematics,
           Artificial Intelligence,
           Probability,
-          & Problem solving.
+          & Universe.
         </Paragraph>
       </Section>
 
@@ -146,23 +147,24 @@ const Home = () => (
         <Button
                 variant="ghost"
               >Modulo Research</Button><br></br>
-        &nbsp;&nbsp;&nbsp;&nbsp;<i>(May 2024 - Present)</i>
+        &nbsp;&nbsp;&nbsp;&nbsp;<i>(May 2024 - August 2024)</i>
         </Paragraph>
         </ListItem>
         <ListItem>
         <Paragraph>
           <br></br>
-        &nbsp;&nbsp;<strong>2. Machine Learning Engineer (Full-time)</strong><br></br>
+        &nbsp;&nbsp;<strong>2. Research Assistant (Part-time)</strong><br></br>
         <Button
                 variant="ghost"
-              >ICEBRKR, A Virtly Company, Switzerland</Button><br></br>
-        &nbsp;&nbsp;&nbsp;&nbsp;<i>(March 2024 - Present)</i>
+              >ILPRL, Kathmandu  University</Button><br></br>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;<i>(June 2024 - Present)</i>
         </Paragraph>
         </ListItem>
         <ListItem>
         <Paragraph>
           <br></br>
-        &nbsp;&nbsp;<strong>3. Research Assistant (Full Time)</strong><br></br>
+        &nbsp;&nbsp;<strong>3. Research Assistant (Full-time)</strong><br></br>
         <Button
                 
                 variant="ghost"
