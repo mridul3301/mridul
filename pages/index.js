@@ -16,6 +16,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import Image from 'next/image'
+import { SiGooglescholar } from "react-icons/si";
 
 
 const ProfileImage = chakra(Image, {
@@ -72,14 +73,14 @@ const Home = () => (
         </Box>
       </Box>
 
+
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
           About 🙋🏻‍♂️
         </Heading>
         <p>
-        I&apos;m a Computer Engineer passionate about AI & Mathematics research. I&apos;m interested in LLMs, RL and Interpretability.
+        I&apos;m a Computer Engineer passionate about AI & Mathematics research. I&apos;m interested in LLMs, MultimodaL AI, generalization and Interpretability.
         My research inspiration comes from <b><a href="https://distill.pub/">Distill</a></b> journal, particularly the work of <b><a href="https://colah.github.io/about.html">Chris Olah. </a></b> 
-        I&apos;m looking to pursue similar research, but with a stronger emphasis on the mathematical foundations.
         </p>
         <Box align="center" my={8}>
           <Button
@@ -93,6 +94,61 @@ const Home = () => (
             Here&apos;s my CV
           </Button>
         </Box>
+      </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          Socials 📱
+        </Heading>
+        <List>
+          <ListItem>
+            <Link href="https://github.com/mridul3301" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoGithub />}
+              >
+                mridul3301
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://www.linkedin.com/in/mridul3301/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoLinkedin />}
+              >
+                Mridul Sharma
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://twitter.com/mriiidullll" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoTwitter />}
+              >
+                mriiidullll
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://scholar.google.com/citations?user=TSC8VqkAAAAJ&hl=en" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<SiGooglescholar />}
+              >
+                Mridul Sharma - Google Scholar
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+          </ListItem>
+          
+        </List>
       </Section>
 
       <Section delay={0.3}>
@@ -176,49 +232,7 @@ const Home = () => (
         </List>
       </Section>
 
-      <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
-          Socials 📱
-        </Heading>
-        <List>
-          <ListItem>
-            <Link href="https://github.com/mridul3301" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoGithub />}
-              >
-                mridul3301
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://www.linkedin.com/in/mridul3301/" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoLinkedin />}
-              >
-                Mridul Sharma
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://twitter.com/mriiidullll" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                mriiidullll
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-          </ListItem>
-          
-        </List>
-      </Section>
+      
     </Container>
   </Layout>
 )
